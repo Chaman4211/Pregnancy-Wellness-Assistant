@@ -9,6 +9,12 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.6+-orange)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-FF5733)
+
+## 🚀 **Live Demo**
+**Experience the application now:** [Click here to launch Live Demo](https://pregnancy-wellness-assistant.streamlit.app/)
+
+> ⚠️ **Note**: The live demo uses sample models. For full functionality with custom-trained models, please run locally.
 
 ## ✨ **Key Features**
 
@@ -111,8 +117,8 @@ pip package manager
 ### **Installation Steps**
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/pregnancy-wellness.git
-cd pregnancy-wellness
+git clone https://github.com/Chaman4211/Pregnancy-Wellness-Assistant.git
+cd Pregnancy-Wellness-Assistant
 
 # 2. Create virtual environment
 python -m venv venv
@@ -254,14 +260,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 **Star History**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/pregnancy-wellness&type=Date)](https://star-history.com/#yourusername/pregnancy-wellness&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Chaman4211/Pregnancy-Wellness-Assistant&type=Date)](https://star-history.com/#Chaman4211/Pregnancy-Wellness-Assistant&Date)
 
 ## 📞 **Support & Contact**
 
-**Project Maintainer**: Your Name  
-**Email**: your.email@example.com  
-**GitHub Issues**: [Report Bug](https://github.com/yourusername/pregnancy-wellness/issues)  
-**Discord**: [Join Community](https://discord.gg/your-link)
+**Project Maintainer**: Chaman Chaudhary  
+**Email**: chamanChaudhary182@gmail.com  
+**GitHub Issues**: [Report Bug](https://github.com/Chaman4211/Pregnancy-Wellness-Assistant/issues)  
 
 ---
 
@@ -269,7 +274,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### **Made with ❤️ for expecting mothers everywhere**
 
-![Pregnancy Wellness](https://img.shields.io/badge/🤰-Pregnancy_Wellness-FF69B4)
+![Pregnancy Wellness](https://img.shields.io/badge/🤰-Pregnancy_Wellness-Assistant-FF69B4)
 ![AI Powered](https://img.shields.io/badge/🧠-AI_Powered-9370DB)
 ![Privacy First](https://img.shields.io/badge/🔒-Privacy_First-4CAF50)
 
@@ -279,17 +284,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 **Future Roadmap**
 
-### **Q1 2024**
+### **Q1 2026**
 - [ ] **Mobile App**: iOS & Android versions
 - [ ] **Multi-language**: Urdu support
 - [ ] **Partner Access**: Family member accounts
 
-### **Q2 2024**
+### **Q2 2026**
 - [ ] **Doctor Portal**: Healthcare provider interface
 - [ ] **Wearable Integration**: Smartwatch compatibility
 - [ ] **Community Features**: Anonymous sharing
 
-### **Q3 2024**
+### **Q3 2026**
 - [ ] **Predictive Analytics**: Early warning system
 - [ ] **Telemedicine Integration**: Video consultations
 - [ ] **Postpartum Tracking**: Extend to after birth
