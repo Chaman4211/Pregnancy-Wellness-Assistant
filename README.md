@@ -16,6 +16,7 @@ Experience the application now:
 
 👉 [Click here to launch the Live Demo
 ](https://pregnancy-wellness-assistant-bkkjx549smgcwnh776jwfs.streamlit.app/)
+
 ⚠️ Note: The live demo uses sample models.
 For full functionality with custom-trained models, please run the application locally.
 
