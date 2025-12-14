@@ -12,7 +12,7 @@
 ![Live Demo](https://img.shields.io/badge/🚀-Live_Demo-FF5733)
 
 ## 🚀 **Live Demo**
-**Experience the application now:** [Click here to launch Live Demo]([https://pregnancy-wellness-assistant.streamlit.app/](https://pregnancy-wellness-assistant-bkkjx549smgcwnh776jwfs.streamlit.app/))
+**Experience the application now:** [Click here to launch Live Demo]([https://pregnancy-wellness-assistant-bkkjx549smgcwnh776jwfs.streamlit.app/])
 
 > ⚠️ **Note**: The live demo uses sample models. For full functionality with custom-trained models, please run locally.
 
