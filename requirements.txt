@@ -1,3 +1,4 @@
+# Core packages
 streamlit
 numpy
 pandas
@@ -5,13 +6,11 @@ librosa
 soundfile
 plotly
 matplotlib
-
 scikit-learn
 tensorflow
 keras
 torch
 torchaudio
-
 numba
 llvmlite
 
@@ -19,29 +18,10 @@ llvmlite
 jupyter
 ipython
 
-streamlit
-sqlite3
-hashlib
-pandas
-numpy
-librosa
-plotly
+# Additional packages
 fpdf
-numpy
-pandas
-tensorflow
-scikit-learn
 imbalanced-learn
 nltk
 reportlab
-plotly
 speechrecognition
-streamlit
-sqlite3
-hashlib
-datetime
-librosa
-fpdf
-torch
 joblib
-
