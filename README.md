@@ -657,9 +657,43 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Community**: All expecting mothers who provided feedback
 - **Open Source**: Libraries that made this possible
 
-## 🌟 **Star History**
+## 🌟 **Star Growth History**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Chaman4211/Pregnancy-Wellness-Assistant&type=Date)](https://star-history.com/#Chaman4211/Pregnancy-Wellness-Assistant&Date)
+<div align="center">
+
+### ⭐ **Current Stats**
+![Stars](https://img.shields.io/github/stars/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=starship&labelColor=black&color=ffd700)
+![Forks](https://img.shields.io/github/forks/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=git&labelColor=black&color=0d9aff)
+![Watchers](https://img.shields.io/github/watchers/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=eye&labelColor=black&color=7c3aed)
+
+### 📊 **Growth Timeline**
+*Click the chart below for interactive analysis →*
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Chaman4211/Pregnancy-Wellness-Assistant&type=Timeline&theme=dark)](https://star-history.com/#Chaman4211/Pregnancy-Wellness-Assistant&Timeline)
+
+</div>
+
+---
+
+### 📈 **Milestone Tracker**
+| Milestone | Status | Target |
+|-----------|--------|--------|
+| **⭐ First Star** | ✅ Achieved | 1 |
+| **🚀 10 Stars** | 🔄 In Progress | 10 |
+| **🏆 50 Stars** | 🎯 Next Goal | 50 |
+| **💯 100 Stars** | 🌟 Future Goal | 100 |
+
+---
+
+### 🤝 **Support This Project**
+If you find this project helpful, please consider:
+- **Starring the repository** ⭐ (to help others discover it)
+- **Watching for updates** 👀
+- **Forking to contribute** 🔄
+- **Sharing with others** 📢
+
+> *Every star helps improve visibility and encourages further development!*
+
 
 ## 📞 **Support & Contact**
 
