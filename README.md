@@ -71,13 +71,14 @@ For full functionality with custom-trained models, please run the application lo
 ## 🏗️ **Architecture**
 
 
+
 ```mermaid
 graph TB
     %% ===== FRONTEND LAYER =====
-    subgraph "🌐 Frontend Layer"
-        ST[Streamlit Web App]
+    subgraph FL["🌐 Frontend Layer"]
+        ST["Streamlit Web App"]
         
-        subgraph "📱 UI Components"
+        subgraph UI["📱 UI Components"]
             T1["🏠 Dashboard Tab"]
             T2["🎤 Voice Analysis"]
             T3["📝 Text Analysis"]
@@ -101,8 +102,8 @@ graph TB
     end
 
     %% ===== BUSINESS LOGIC LAYER =====
-    subgraph "🧠 Business Logic Layer"
-        subgraph "🎭 Emotion Detection"
+    subgraph BL["🧠 Business Logic Layer"]
+        subgraph ED["🎭 Emotion Detection"]
             VD["🎵 Voice Detector<br/>PyTorch CNN"]
             TD["📝 Text Detector<br/>TensorFlow/Keras"]
             RB["🔄 Rule-based Fallback"]
@@ -111,8 +112,8 @@ graph TB
             TD --> RB
         end
         
-        subgraph "🤰 Pregnancy Modules"
-            PM["📅 Pregnancy Timeline<br/>Week-by-week Data"]
+        subgraph PM["🤰 Pregnancy Modules"]
+            PT["📅 Pregnancy Timeline<br/>Week-by-week Data"]
             BR["👶 Baby Development<br/>Kick Counter"]
             NR["🍎 Nutrition<br/>Recommendations"]
             ER["💪 Exercise<br/>Recommendations"]
@@ -120,19 +121,19 @@ graph TB
             RR["💡 Emotional<br/>Support"]
         end
         
-        subgraph "🔧 Processing"
+        subgraph PR["🔧 Processing"]
             AP["🎵 Audio Processing<br/>librosa MFCC"]
             TP["📝 Text Processing<br/>NLP"]
             VS["📊 Visualization<br/>Plotly Charts"]
-            PR["📄 Report Generation<br/>FPDF"]
+            RP["📄 Report Generation<br/>FPDF"]
         end
     end
 
     %% ===== DATA LAYER =====
-    subgraph "💾 Data Layer"
-        DB[(SQLite Database)]
+    subgraph DL["💾 Data Layer"]
+        DB[("SQLite Database")]
         
-        subgraph "🗂️ Database Schema"
+        subgraph SC["🗂️ Database Schema"]
             U["users<br/>user_id, trimester, weeks"]
             EM["emotions<br/>emotion, confidence, source"]
             BK["baby_kicks<br/>kicks, duration"]
@@ -152,14 +153,14 @@ graph TB
     end
 
     %% ===== AI/ML MODELS =====
-    subgraph "🤖 AI/ML Models"
-        subgraph "🎵 Voice Model"
+    subgraph AI["🤖 AI/ML Models"]
+        subgraph VM["🎵 Voice Model"]
             VCNN["UltraStrongCNN<br/>Residual CNN"]
             VFE["Audio Features<br/>MFCC, pitch, energy"]
             VCL["7 Emotions<br/>Anxious, Calm, Happy, etc."]
         end
         
-        subgraph "📝 Text Model"
+        subgraph TM["📝 Text Model"]
             TDL["Deep Learning Model<br/>max_length=300"]
             TTO["Tokenizer<br/>Text Preprocessing"]
             TLN["Label Encoder<br/>Emotion Classes"]
@@ -167,7 +168,7 @@ graph TB
     end
 
     %% ===== SUPPORTING MODULES =====
-    subgraph "🔧 Supporting Modules"
+    subgraph SM["🔧 Supporting Modules"]
         AUTH["🔐 Authentication<br/>Login/Signup"]
         SESSION["💾 Session Management"]
         PDF["📄 PDF Export<br/>Wellness Reports"]
@@ -184,7 +185,7 @@ graph TB
     T6 --> ER
     T7 --> VR
     T8 --> RR
-    T9 --> PR
+    T9 --> RP
     
     %% Business Logic to Data
     VD --> EM
@@ -206,7 +207,7 @@ graph TB
     %% Supporting modules connections
     ST --> AUTH
     ST --> SESSION
-    PR --> PDF
+    RP --> PDF
     ST --> JSON
     ST --> EMER
     
@@ -215,24 +216,24 @@ graph TB
     TP --> TTO
     
     %% Data flows
-    PM --> U
+    PT --> U
     VS --> EM
     VS --> BK
     VS --> NL
     VS --> EL
 
     %% ===== STYLING =====
+    class ST,T1,T2,T3,T4,T5,T6,T7,T8,T9 frontend
+    class VD,TD,RB,PT,BR,NR,ER,VR,RR,AP,TP,VS,RP business
+    class DB,U,EM,BK,NL,EL,VL,RC data
+    class VCNN,VFE,VCL,TDL,TTO,TLN ai
+    class AUTH,SESSION,PDF,JSON,EMER support
+    
     classDef frontend fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     classDef business fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
     classDef data fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
     classDef ai fill:#fff3e0,stroke:#e65100,stroke-width:2px
     classDef support fill:#fce4ec,stroke:#880e4f,stroke-width:2px
-    
-    class ST, T1, T2, T3, T4, T5, T6, T7, T8, T9 frontend
-    class VD, TD, PM, BR, NR, ER, VR, RR, AP, TP, VS, PR, RB business
-    class DB, U, EM, BK, NL, EL, VL, RC data
-    class VCNN, VFE, VCL, TDL, TTO, TLN ai
-    class AUTH, SESSION, PDF, JSON, EMER support
 ```
 
 ## 🎨 Alternative Simplified Version
