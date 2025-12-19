@@ -70,6 +70,28 @@ For full functionality with custom-trained models, please run the application lo
 
 ## 🏗️ **Architecture**
 
+graph TB
+    A[Streamlit UI] --> B[Authentication]
+    B --> C{User Session}
+    C --> D[Voice Analysis]
+    C --> E[Text Analysis]
+    C --> F[Pregnancy Tracking]
+    C --> G[Nutrition & Exercise]
+    C --> H[Reporting]
+    
+    D --> I[Residual CNN Model]
+    E --> J[Keras Text Model]
+    
+    I --> K[SQLite Database]
+    J --> K
+    F --> K
+    G --> K
+    H --> K
+    
+    K --> L[Visualizations]
+    K --> M[Reports]
+    K --> N[Recommendations]
+
 ### **Backend Technologies**
 ```
 ┌─────────────────────────────────────────────┐
