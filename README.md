@@ -537,17 +537,17 @@ streamlit run app.py
 
 ### **Dependencies**
 ```txt
-streamlit==1.28.0
-torch==2.6.0
-tensorflow==2.12.0
-librosa==0.10.1
-plotly==5.18.0
-pandas==2.0.3
-numpy==1.24.3
+streamlit
+torch
+tensorflow
+librosa
+plotly
+pandas
+numpy
 sqlite3
-fpdf==1.7.2
-scikit-learn==1.3.0
-joblib==1.3.2
+fpdf
+scikit-learn
+joblib
 ```
 
 ## 🎮 **Usage Guide**
