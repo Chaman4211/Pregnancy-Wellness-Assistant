@@ -657,42 +657,46 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Community**: All expecting mothers who provided feedback
 - **Open Source**: Libraries that made this possible
 
-## 🌟 **Star Growth History**
+## 🌟 **Star Growth & Project Stats**
 
 <div align="center">
 
-### ⭐ **Current Stats**
-![Stars](https://img.shields.io/github/stars/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=starship&labelColor=black&color=ffd700)
-![Forks](https://img.shields.io/github/forks/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=git&labelColor=black&color=0d9aff)
-![Watchers](https://img.shields.io/github/watchers/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=eye&labelColor=black&color=7c3aed)
+### 📊 **Real-time Statistics**
 
-### 📊 **Growth Timeline**
-*Click the chart below for interactive analysis →*
+![GitHub Stars](https://img.shields.io/github/stars/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=star&logoColor=white&color=FF6B8B&labelColor=2D3748&label=STARS)
+![GitHub Forks](https://img.shields.io/github/forks/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=git-branch&logoColor=white&color=9F7AEA&labelColor=2D3748&label=FORKS)
+![GitHub Issues](https://img.shields.io/github/issues/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=github&logoColor=white&color=4299E1&labelColor=2D3748&label=OPEN%20ISSUES)
+![Last Updated](https://img.shields.io/github/last-commit/Chaman4211/Pregnancy-Wellness-Assistant?style=for-the-badge&logo=github-actions&logoColor=white&color=48BB78&labelColor=2D3748&label=LAST%20UPDATED)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Chaman4211/Pregnancy-Wellness-Assistant&type=Timeline&theme=dark)](https://star-history.com/#Chaman4211/Pregnancy-Wellness-Assistant&Timeline)
+### 📈 **Growth Timeline**
+*Click the chart for detailed analysis on Star History →*
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Chaman4211/Pregnancy-Wellness-Assistant&type=Date&theme=default)](https://star-history.com/#Chaman4211/Pregnancy-Wellness-Assistant&Date)
 
 </div>
 
 ---
 
-### 📈 **Milestone Tracker**
-| Milestone | Status | Target |
-|-----------|--------|--------|
-| **⭐ First Star** | ✅ Achieved | 1 |
-| **🚀 10 Stars** | 🔄 In Progress | 10 |
-| **🏆 50 Stars** | 🎯 Next Goal | 50 |
-| **💯 100 Stars** | 🌟 Future Goal | 100 |
+### 🎯 **Project Milestones**
+
+| Milestone | Status | Target Date | Progress |
+|-----------|--------|-------------|----------|
+| **⭐ First Star** | 🎉 Achieved | Initial Launch | ✅ **100%** |
+| **🚀 50 Stars** | 🔄 In Progress | Q2 2024 | ![50 Stars Progress](https://progress-bar.dev/25/?width=200&title=25%25&color=FF6B8B) |
+| **🏆 100 Stars** | 📅 Planned | Q3 2024 | ![100 Stars Progress](https://progress-bar.dev/10/?width=200&title=10%25&color=9F7AEA) |
+| **💖 500 Stars** | 🌟 Future Goal | Q4 2024 | ![500 Stars Progress](https://progress-bar.dev/2/?width=200&title=2%25&color=4299E1) |
 
 ---
 
-### 🤝 **Support This Project**
-If you find this project helpful, please consider:
-- **Starring the repository** ⭐ (to help others discover it)
-- **Watching for updates** 👀
-- **Forking to contribute** 🔄
-- **Sharing with others** 📢
+### 💝 **Support This Project**
 
-> *Every star helps improve visibility and encourages further development!*
+<div align="center">
+
+If this project helps you, please consider giving it a **star** ⭐ to show your support!
+
+<sub>⭐ **Every star helps:** Increases visibility, motivates development, and helps other pregnant individuals discover this resource!</sub>
+
+</div>
 
 
 ## 📞 **Support & Contact**
