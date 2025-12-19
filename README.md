@@ -70,6 +70,54 @@ For full functionality with custom-trained models, please run the application lo
 
 ## 🏗️ **Architecture**
 
+graph LR
+    %% Horizontal Flow
+    USER["👩‍💼 User"] --> UI["🌐 Streamlit UI"]
+    UI --> AUTH["🔐 Authentication"]
+    AUTH -->|Login| DASH["📊 Dashboard"]
+    
+    DASH -->|Voice| AUDIO["🎵 Audio Upload"]
+    DASH -->|Text| TEXT["📝 Text Input"]
+    
+    AUDIO --> AUD_PROC["🎵 Audio Processing<br/>librosa MFCC"]
+    TEXT --> TXT_PROC["📝 Text Processing<br/>Tokenization"]
+    
+    AUD_PROC --> VOICE_MODEL["🤖 Voice CNN Model<br/>PyTorch"]
+    TXT_PROC --> TEXT_MODEL["🤖 Text DL Model<br/>TensorFlow"]
+    
+    VOICE_MODEL -->|Prediction| EMOTION["🎭 Emotion Detection"]
+    TEXT_MODEL -->|Prediction| EMOTION
+    
+    EMOTION --> DB[(SQLite Database)]
+    EMOTION --> RECS["💡 Recommendations"]
+    
+    RECS --> NUTR["🍎 Nutrition Tips"]
+    RECS --> EXER["💪 Exercise Advice"]
+    RECS --> VITS["💊 Vitamin Guidance"]
+    RECS --> EMOT_SUP["💖 Emotional Support"]
+    
+    DB --> REPORTS["📄 Reports"]
+    DB --> VISUAL["📊 Visualizations"]
+    
+    REPORTS --> PDF["📄 PDF Export"]
+    VISUAL --> CHARTS["📈 Interactive Charts"]
+    
+    classDef user fill:#ffebee,stroke:#c62828
+    classDef ui fill:#e3f2fd,stroke:#1565c0
+    classDef auth fill:#f3e5f5,stroke:#7b1fa2
+    classDef process fill:#e8f5e9,stroke:#2e7d32
+    classDef ai fill:#fff3e0,stroke:#ef6c00
+    classDef data fill:#e0f2f1,stroke:#00695c
+    classDef output fill:#fce4ec,stroke:#ad1457
+    
+    class USER user
+    class UI ui
+    class AUTH auth
+    class AUDIO,TEXT,AUD_PROC,TXT_PROC process
+    class VOICE_MODEL,TEXT_MODEL,EMOTION ai
+    class DB,RECS,NUTR,EXER,VITS,EMOT_SUP data
+    class REPORTS,PDF,VISUAL,CHARTS output
+
 ### **Backend Technologies**
 ```
 ┌─────────────────────────────────────────────┐
