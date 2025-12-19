@@ -682,9 +682,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Milestone | Status | Target Date | Progress |
 |-----------|--------|-------------|----------|
 | **⭐ First Star** | 🎉 Achieved | Initial Launch | ✅ **100%** |
-| **🚀 50 Stars** | 🔄 In Progress | Q2 2024 | ![50 Stars Progress](https://progress-bar.dev/25/?width=200&title=25%25&color=FF6B8B) |
-| **🏆 100 Stars** | 📅 Planned | Q3 2024 | ![100 Stars Progress](https://progress-bar.dev/10/?width=200&title=10%25&color=9F7AEA) |
-| **💖 500 Stars** | 🌟 Future Goal | Q4 2024 | ![500 Stars Progress](https://progress-bar.dev/2/?width=200&title=2%25&color=4299E1) |
+| **🚀 50 Stars** | 🔄 In Progress | Q2 2025 | ![50 Stars Progress](https://progress-bar.dev/25/?width=200&title=25%25&color=FF6B8B) |
+| **🏆 100 Stars** | 📅 Planned | Q3 2026 | ![100 Stars Progress](https://progress-bar.dev/10/?width=200&title=10%25&color=9F7AEA) |
+| **💖 500 Stars** | 🌟 Future Goal | Q4 2026 | ![500 Stars Progress](https://progress-bar.dev/2/?width=200&title=2%25&color=4299E1) |
 
 ---
 
